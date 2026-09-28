@@ -1,0 +1,63 @@
+{
+  "lut_sha256": "8a670b5e62a569712d6ba1b724a96895819fdee840d8d8b9723329e85abdfbf4",
+  "preserved_original_segments": [
+    "HDR RGB",
+    "SDR YUV"
+  ],
+  "neutral_ramp_monotonic": true,
+  "neutral_max_channel_spread": 0,
+  "pq_reference_checks": [
+    {
+      "nits": 0,
+      "input_I": 0,
+      "expected_rgb": 0,
+      "actual": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nits": 100,
+      "input_I": 130,
+      "expected_rgb": 188,
+      "actual": [
+        188,
+        188,
+        188
+      ]
+    },
+    {
+      "nits": 1000,
+      "input_I": 192,
+      "expected_rgb": 245,
+      "actual": [
+        245,
+        245,
+        245
+      ]
+    },
+    {
+      "nits": 10000,
+      "input_I": 255,
+      "expected_rgb": 254,
+      "actual": [
+        254,
+        254,
+        254
+      ]
+    }
+  ],
+  "independent_lut_cells_checked": 16777216,
+  "independent_max_byte_difference": 1,
+  "cells_different_by_rounding": 5092,
+  "negative_mode_cases": [
+    "Info[3]",
+    "Info[0]",
+    "Y422",
+    "12BIT",
+    "Lock[0]",
+    "is5Vconnected[0]",
+    "isMute[1]"
+  ]
+}

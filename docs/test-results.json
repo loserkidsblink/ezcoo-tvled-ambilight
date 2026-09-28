@@ -1,0 +1,13 @@
+{
+  "image_sha256": "efc27e3ef3079c346f8afcc6df5dd524077163770647f0b84c5b0e2d0ca7084d",
+  "passed": {
+    "route_ratio": 1178,
+    "filter": 30,
+    "avi": 57,
+    "integrated_filter": 4,
+    "avi_forward": 8,
+    "mode_transitions": 14
+  },
+  "total": 1291,
+  "scope": "Actual linked ARM; synthetic board state and stubbed hardware I/O; no physical validation"
+}

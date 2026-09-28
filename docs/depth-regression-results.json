@@ -1,0 +1,21 @@
+{
+  "hardware_depth_codes": [
+    24,
+    30,
+    36,
+    48
+  ],
+  "binary_changes": [
+    {
+      "address": "0x801eed2",
+      "old": 8,
+      "new": 24
+    },
+    {
+      "address": "0x801efa4",
+      "old": 8,
+      "new": 24
+    }
+  ],
+  "scope": "Actual compiled ARM with modeled register IO; hardware retest still required"
+}

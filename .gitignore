@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+*.pyc
+*.bin
+*.elf
+*.o
+*.map
+*.3d
+firmware/manifest.json
+firmware/*results.json
+firmware/dfu-install-*.json
+.env
